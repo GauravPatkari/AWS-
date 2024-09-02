@@ -1,0 +1,24 @@
+	• AWS  Global Infrastructure
+	
+	Regions - 33 Regions 
+	Mumbai Region(2016) <- Availability Zones (Mumbai, Delhi, Kolkata) <- Data Centers 
+	Hyderabad Region(2022) <- Availability Zones (Hyderabad, Banglore, Chennai)
+	At least 2 groups of datacenters  in one region & Max 6 groups
+
+	Elastic Load Balancers used for static IP address which use in application on devices 
+	Out of 33 regions 4 regions are not available for normal users which are located in China and US Gov
+	Out of 29 regions in which government verifications are mandatory before launching the severs ( Hongkong, Capetown, UAE, Hyderabad, Jakarta, Melbourne, Spain, Milan, Zurich, Bahrain, Tel Aviv, Calgary) 
+	Remaining 17 are ( Mumbai, Singapore, Sydney, Tokyo, Osaka, Seoul, Frankfruit, Paris, London, Stockholm, Ireland, US.N.Virgina, US.Ohio, US.Oregon, US.California, Central Canada, South America Sao Paulo)
+	Region Code -> AP-South-01 (Mumbai Data Center) and for specific datacenter of the region has pun code -> ap-south-01a (Mumbai Availability Zone) -> ap-south-01b (Delhi Availability Zone)
+	
+
+	
+	- Availability Zones - 105
+	- Local Zones - 100+ 
+	- Wavelength Zones - 29
+	- Edge locations (Point of Presence) - 600+ - Used to speed up the process of data transfer and this locations are situated near the local zones in traffic network area / it also have disadvantages of delaying of data removal
+	- Countries - 245
+	- Direct connect locations - 115 - Junction used by the Private Data Centers and Cloud Data Centers for the speedup the data process transfer.
+	- CDN (Continuos Data Network) - Frequently used data are used in CDN and in it contain static contain which used frequently 
+
+
